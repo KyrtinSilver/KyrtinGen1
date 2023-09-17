@@ -4,7 +4,7 @@ Since people seemed to like my very silly post yesterday, here are the step-by-s
 1)	Create and/or login to accounts for GitHub and Replicate.
 2)	Create a new public GitHub repository to store your source files for fine tuning.
 3)	Prepare a zip file containing 10 or more images clearly showing your face. The more the better, I used 22 in total.
-4)	Open this Google Colab, and walk through the steps, running the code one block at a time: 
+4)	Open this Google Colab, and walk through the steps, running the code one block at a time: https://colab.research.google.com/drive/1SGzF3PC6uScg9Jj0Xi5wnqUdFy66FIYb?usp=sharing
 5)	Upload the zip file to your GitHub repo, navigate to the uploaded file, and click the “raw” button.
 6)	Copy the URL your zip file downloaded from into the training code block in Colab.
 7)	Go to https://replicate.com/create and create a model. Copy the resulting my-name/my-model into the training code block in Colab.
