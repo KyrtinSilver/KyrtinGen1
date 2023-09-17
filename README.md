@@ -6,7 +6,7 @@ Since people seemed to like my very silly post yesterday, here are the step-by-s
 3)	Prepare a zip file containing 10 or more images clearly showing your face. The more the better, I used 22 in total.
 4)	Open this Google Colab, and walk through the steps, running the code one block at a time: https://colab.research.google.com/drive/1SGzF3PC6uScg9Jj0Xi5wnqUdFy66FIYb?usp=sharing
 5)	Upload the zip file to your GitHub repo, navigate to the uploaded file, and click the “raw” button.
-6)	Copy the URL your zip file downloaded from into the training code block in Colab.
+6)	Copy the URL your zip file downloaded from into the training code block in Colab. It should begin with "https://raw.githubusercontent.com"
 7)	Go to https://replicate.com/create and create a model. Copy the resulting my-name/my-model into the training code block in Colab.
 8)	Tweak the parameters if you wish, but otherwise just hit train, and in a few minutes you’ll have your own model for generating your own silly images of yourself.
 
