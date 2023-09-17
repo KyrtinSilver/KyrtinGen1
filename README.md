@@ -9,10 +9,17 @@ Since people seemed to like my very silly post yesterday, here are the step-by-s
 6)	Copy the URL your zip file downloaded from into the training code block in Colab.
 7)	Go to https://replicate.com/create and create a model. Copy the resulting my-name/my-model into the training code block in Colab.
 8)	Tweak the parameters if you wish, but otherwise just hit train, and in a few minutes you’ll have your own model for generating your own silly images of yourself.
+
 To further improve output images I can also recommend:
+
 •	Using “negative prompts” to correct biases in the model, and home in on exactly what you want by excluding specific patterns. For example, SDXL seems to bias heavily toward a cleft chin, but putting that in the negative prompt reduces that bias.
+
 •	Using a second system for “Face Swapping” on the output, to bring it that much closer to full fidelity. SDXL captures hair quite well, which face swappers don’t handle, so combining the two often works best. This is similar to some methods of reinserting original data with residual layers.
+
 •	You can train a model for more steps, and with a higher batch size. A batch size of 6 and 2500 steps (defaults 4 and 1000 respectively) only cost me $1. However, in my experience the model fine tuned for longer performed substantially worse than the default settings.
+
 I tested using a unique identifier other than the default “TOK”, but even another truly unique identifier failed horribly compared to far less training on TOK. I recommend not changing that default. For the full list of parameters you can insert into the code, see: https://replicate.com/stability-ai/sdxl#training-inputs
+
 I tested the results against several live 3D facial scanning systems, and they couldn’t tell the difference between the resulting images and a live feed of my face. 
+
 Enjoy making many silly images of yourself.
